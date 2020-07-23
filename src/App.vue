@@ -1,17 +1,17 @@
 <template>
-  <v-app>
-      <Weather />
+  <v-app id="inspire">
+    <Weather />
   </v-app>
 </template>
 
 <script>
-import Weather from './components/Weather';
+import Weather from "./components/Weather";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    Weather
-  }
+    Weather,
+  },
 };
 </script>
